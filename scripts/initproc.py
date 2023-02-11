@@ -3,7 +3,7 @@ import argparse
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('INIT_PROC', default="usershell")
+    parser.add_argument('INIT_PROC', default="ch5b_user_shell")
     args = parser.parse_args()
     f = open("os/initproc.S", mode="w")
     f.write(
