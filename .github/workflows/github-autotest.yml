@@ -7,7 +7,7 @@ jobs:
   base-test:
     runs-on: ubuntu-latest
     container:
-        image: duskmoon/dev-env:ucore-ci
+        image: tclab/rucore-env
     steps:
       - uses: actions/checkout@v3
       - run: git clone https://github.com/LearningOS/uCore-Tutorial-Checker-2023S.git ucore-tutorial-ci 
